@@ -53,24 +53,24 @@ const Page = () => {
                 </div>
                 <div className='flex flex-col mt-10'>
                     <span className='text-xl font-bold'>Download From</span>
-                    <div className='font-medium mt-2 grid grid-cols-4 bg-black text-white rounded-lg px-3 py-1'>
+                    <button className='w-40 mt-2 flex text-xs bg-black text-white rounded-lg md:px-1 py-1'>
                         <div className='flex items-center justify-center'>
-                            <Image src={GooglePlayStore} alt='playstore' className='w-10 h-10'></Image>
+                            <Image src={GooglePlayStore} alt='playstore' className='w-8 h-8'></Image>
                         </div>
-                        <div className='flex flex-col col-span-3'>
+                        <div className='flex flex-col col-span-3 ml-1 text-left'>
                             <span>Download from</span>
                             <span>Google Play Store</span>
                         </div>
-                    </div>
-                    <div className='font-medium mt-2 grid grid-cols-4 bg-black text-white rounded-lg px-3 py-1'>
+                    </button>
+                    <button className=' w-40 mt-2 flex text-xs bg-black text-white rounded-lg md:px-3 py-1'>
                         <div className='flex items-center justify-center'>
-                            <Image src={AppStore} alt='playstore' className='w-10 h-10'></Image>
+                            <Image src={AppStore} alt='playstore' className='w-8 h-8'></Image>
                         </div>
-                        <div className='flex flex-col col-span-3'>
+                        <div className='flex flex-col col-span-3 text-xs ml-1 text-left'>
                             <span>Download from</span>
                             <span>App Store</span>
                         </div>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
